@@ -1,0 +1,29 @@
+<ehcache updateCheck="false" name="sysCache">
+
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="false"
+		diskPersistent="false" diskExpiryThreadIntervalSeconds="120" />
+		
+	<!-- 超时时间 60秒*60分钟*12小时 -->
+	<cache 
+		name="longTime" 
+		eternal="false" 
+		maxElementsInMemory="10000"
+		overflowToDisk="false" 
+		diskPersistent="false" 
+		timeToIdleSeconds="0"
+		timeToLiveSeconds="43200" 
+		memoryStoreEvictionPolicy="LRU" />
+		
+	<!-- 超时时间 60秒*5分钟 -->
+	<cache 
+		name="sortTime" 
+		eternal="false" 
+		maxElementsInMemory="10000"
+		overflowToDisk="false" 
+		diskPersistent="false" 
+		timeToIdleSeconds="0"
+		timeToLiveSeconds="120" 
+		memoryStoreEvictionPolicy="LRU" />
+	
+</ehcache>

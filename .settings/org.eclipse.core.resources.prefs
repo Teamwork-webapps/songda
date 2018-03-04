@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/views/admin/common/defaultContent.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/common/leftMenu.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/dashboard.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/role/content.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/role/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/user/content.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/user/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/user/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/user/view.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/login.jsp=UTF-8
